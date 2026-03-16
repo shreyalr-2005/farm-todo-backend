@@ -2,8 +2,8 @@ from contextlib import asynccontextmanager
 from datetime import datetime
 import os
 import sys
-
 import certifi
+
 from bson import ObjectId
 from fastapi import FastAPI, status
 from motor.motor_asyncio import AsyncIOMotorClient
